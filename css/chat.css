@@ -1,0 +1,29 @@
+.chat__friend {
+    margin-bottom: 10px;
+}
+
+.chat__info {
+    display: flex;
+    flex-wrap: wrap;
+    width: 63px;
+    text-align: center;
+    font-size: 13px;
+    justify-content: center;
+    margin-top: 15px;
+    margin-left: 170px;
+}
+
+.info__timestamp {
+    opacity: .5;
+}
+
+.info__count {
+    background-color: #E95D35;
+    color: white;
+    border-radius: 10px;;
+    line-height: 20px;
+    width: 20px;
+    height: 20px;
+    margin-left: 30px;
+    margin-top: -5px;
+}

@@ -1,0 +1,153 @@
+@import "./reset.css";
+@import "./nav.css";
+@import "./chat.css";
+@import "./chating.css";
+
+body {
+    height: 963px;
+    width: 433px;
+    background-color: #FFFFFF;
+    border: 1px solid black;
+    margin: 150px;
+    
+}
+
+a {
+    text-decoration:none ; color:#000000
+
+}
+
+.scroll {
+    overflow: scroll;
+    width: 433px;
+    height: 820px;
+    -ms-overflow-style: none;
+}
+
+::-webkit-scrollbar { display: none; }
+
+header {
+    
+}
+
+.header__status {
+    display: flex;
+    margin: 15px;
+    justify-content: space-between;
+    opacity: .5;
+}
+
+.header {
+    display: flex;
+    position: relative;
+    margin: 15px;
+    width: 90%;
+    justify-content: space-between;
+}
+
+.header__column {
+    display: flex;
+    align-items: center;
+}
+
+.header__column2 {
+    display: flex;
+    width: 130px;
+    justify-content: space-between;
+}
+
+h1 {
+    font-size: 20px;
+}
+
+.header__column .header__icon {
+    margin: 5px;
+    font-size: 20px;
+}
+
+.friends__list {
+    margin: 17px;
+}
+
+.friends__friend {
+    display: flex;
+}
+
+.friend__content {
+    margin-left: 15px;
+    line-height: 20px;;
+    margin-top: 10px;
+}
+
+.friend__name {
+    font-size: 17px;
+}
+
+.friend__status {
+    opacity: .5;
+    font-size: 13px;;
+}
+
+.avatar--lg {
+    border-radius: 26px;
+    width: 60px;
+    height: 60px;
+    background-size: cover;
+}
+
+.header__line {
+    margin: 10px;
+    width: 400px;
+    height: 1px;
+    background-color: black;
+    opacity: .05;
+}
+
+.friends__birthday {
+    margin: 10px;
+}
+
+.avatar {
+    margin-left: -10px;
+    width: 43px;
+    height: 43px;
+    border-radius: 18px;;
+}
+
+.friend__content--birth {
+    margin-left: 15px;
+    line-height: 20px;
+}
+
+.friend__content--search {
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.birth__more {
+    margin-left: 80px;
+    opacity: .5;
+}
+
+.birth__more i {
+    margin-left: 5px;;
+}
+
+h5 {
+    font-size: 10px;
+    opacity: .5;
+}
+
+.count {
+    display: flex;
+    background-color: #E95D35;
+    color: white;
+    border-radius: 10px;;
+    line-height: 17px;
+    width: 17px;
+    height: 17px;
+    justify-content: center;
+    position: absolute;
+    top: 10px;
+    left: 130px;
+}
