@@ -1,0 +1,75 @@
+.friend__column {
+    width: 55px;
+    height: 31px;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 15px;
+    border: 1px solid gray;
+    margin-left: 90px;
+    margin-top: 10px;
+    cursor: pointer;  
+}
+
+.more__pay {
+    display: flex;
+    margin: 15px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F5F5F5;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.pay__pay {
+    margin-left: 20px;
+    background-color: white;
+    width: 120px;
+    height: 30px;
+    border-radius: 20px;
+    line-height: 32px;
+    text-align: center;
+    cursor: pointer;
+}
+.pay__column {
+    margin-right: 15px;
+
+}
+
+.pay__column span {
+    cursor: pointer;
+}
+
+.more__suggestion {
+    flex-direction: column;
+}
+
+.more .more__suggestion-suggestion {
+    width: 70px;
+    margin-right: 30px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+
+.more__suggestion-list {
+    margin: 30px 0px;
+    display: flex;
+    margin-left: 10px;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.suggestion__icon {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.suggestion__icon i {
+    font-size: 30px;
+}

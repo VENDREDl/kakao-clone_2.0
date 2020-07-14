@@ -2,6 +2,8 @@
 @import "./nav.css";
 @import "./chat.css";
 @import "./chating.css";
+@import "./more.css";
+@import "./mobile.css";
 
 body {
     height: 963px;
@@ -26,9 +28,6 @@ a {
 
 ::-webkit-scrollbar { display: none; }
 
-header {
-    
-}
 
 .header__status {
     display: flex;
@@ -150,4 +149,34 @@ h5 {
     position: absolute;
     top: 10px;
     left: 130px;
+}
+
+.menu__setting {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: absolute;
+    width: 210px;
+    height: 150px;
+    top: 30px;
+    left: 170px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 8px 16px -8px, rgba(0, 0, 0, 0.024) 0px -6px 16px -6px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px, rgba(0, 0, 0, 0.024) 0px -6px 16px -6px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px, rgba(0, 0, 0, 0.024) 0px -6px 16px -6px;
+    opacity: 0%;
+    z-index: 1;
+    text-align: left;
+    padding: 10px;
+}
+
+.setting i:hover + .menu__setting{
+    animation: activeMenu .5s linear forwards;
+}
+
+@keyframes activeMenu {
+    to{
+        opacity: 100%;
+    }
+    from {
+        opacity: 100%;
+    }
 }
